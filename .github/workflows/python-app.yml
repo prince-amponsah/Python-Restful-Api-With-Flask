@@ -24,9 +24,9 @@ jobs:
           . venv/bin/activate
           pip install -r requirements.txt
 
-      - name: Deploy to server
-        env:
-          FLASK_APP: app.py
-        run: |
-          . venv/bin/activate
-          flask run
+      # - name: Deploy to server
+      #   env:
+      #     FLASK_APP: app.py
+      #   run: |
+      #     . venv/bin/activate
+      #     flask run
