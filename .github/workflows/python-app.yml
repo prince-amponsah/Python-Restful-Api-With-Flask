@@ -1,9 +1,12 @@
 name: Deploy Flask App
 
 on:
-  push:
-    branches:
-      - main
+  workflow_call:
+  
+permissions:
+  contents: read
+
+
 
 jobs:
   deploy:
