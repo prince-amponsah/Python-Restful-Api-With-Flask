@@ -1,0 +1,32 @@
+  993  clear
+  994  pytest outcome.py
+  995  pytest check_come.py
+  996  clear
+  997  pytest check_come.py
+  998  clear
+  999  cd ../
+ 1000  exit
+ 1001  /usr/local/bin/python3 /Users/prince/.vscode/extensions/ms-python.python-2024.11.2024071702-darwin-x64/python_files/printEnvVariablesToFile.py /Users/prince/.vscode/extensions/ms-python.python-2024.11.2024071702-darwin-x64/python_files/deactivate/zsh/envVars.txt
+ 1002  python3 -m .venv api
+ 1003  source api/bin/activate
+ 1004  python3 -m venv api-works
+ 1005  ls
+ 1006  source api-works/bin/activate
+ 1007  ls
+ 1008  clear
+ 1023  lsof -i -P -n | grep LISTEN
+ 1024  kill -9 48640
+ 1025  lsof -i -P -n | grep LISTEN
+ 1026  clear
+ 1027  /usr/local/bin/python3 /Users/prince/Desktop/DevOps-Projects/Python/API/app.py
+ 1028  clear
+ 1029  /usr/local/bin/python3 /Users/prince/Desktop/DevOps-Projects/Python/API/app.py
+ 1030  clear
+ 1031  /usr/local/bin/python3 /Users/prince/Desktop/DevOps-Projects/Python/API/app.py
+ 1032  clear
+ 1033  source api-works/bin/activate
+ 1034  ls
+ 1035  pip3 install Flask_SQLAlchemy
+ 1036  SQlAlchemy
+ 1037  pip3 freeze
+ 1038  clear
